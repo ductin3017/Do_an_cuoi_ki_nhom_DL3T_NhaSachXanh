@@ -22,13 +22,13 @@ try
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            $mail->Username = 'hothiphuong8272@gmail.com';                 // SMTP username
+            $mail->Username = 'ductin301@gmail.com';                 // SMTP username
             $mail->Password = 'ysonpneewphqeroy';                           // SMTP password
             $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 587;                                    // TCP port to connect to
         
             //Recipients
-            $mail->setFrom('hothiphuong8272@gmail.com', 'PHONGKHAM PT');
+            $mail->setFrom('ductin301@gmail.com', 'PHONGKHAM PT');
             $mail ->addAddress($email);
             //$mail->addAddress($email);     // Add a recipient
             //$mail->addAddress('hohongsk16cht@gmail.com');               // Name is optional
@@ -43,9 +43,9 @@ try
         
             //Content
             $mail->isHTML(true);                                  // Set email format to HTML
-            $mail->Subject = "BOOK North Hills ANNOUNCEMENT: YOU ARE QRCODE!!";
+            $mail->Subject = "BOOK Xanh ANNOUNCEMENT: YOU ARE QRCODE!!";
             $mail->Body    = " Xin chào!
-            <br>Cảm ơn bạn đã đăng ký tài khoản trên website của Book North Hills. 
+            <br>Cảm ơn bạn đã đăng ký tài khoản trên website của Book Xanh. 
             <br>Để biết thêm chi tiết về nhà sách bạn có thể truy cập vào http://localhost:8080/doan.";
             
         $mail->Body .= "<img src='./$file'/><br>";
@@ -63,7 +63,7 @@ try
         // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         
             $mail->send();
-            echo 'Cảm ơn bạn đã đăng ký tài khoản trên website của Nhà sách North Hills';
+            echo 'Cảm ơn bạn đã đăng ký tài khoản trên website của Nhà sách Xanh';
         }
          catch (Exception $e) {
             echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;

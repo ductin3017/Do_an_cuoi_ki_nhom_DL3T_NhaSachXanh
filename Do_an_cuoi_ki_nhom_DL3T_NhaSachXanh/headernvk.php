@@ -44,7 +44,7 @@
         </div><!-- az-header-left -->
         <div class="az-header-menu">
           <div class="az-header-menu-header">
-            <a href="index.html" class="az-logo"><span></span> North HILLS</a>
+            <a href="index.html" class="az-logo"><span></span> Nhà sách xanh</a>
             <a href="" class="close">&times;</a>
           </div><!-- az-header-menu-header -->
           <ul class="nav">

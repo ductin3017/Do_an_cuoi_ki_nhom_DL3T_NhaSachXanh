@@ -170,7 +170,7 @@ button {
 <div id="page" class="page">
     <div class="header">
         <div class="logo"><img src="img/blog/a.jpg"/></div>
-        <div class="company">Nhà sách North Hills</div>
+        <div class="company">Nhà sách Nhà sách xanh</div>
     </div>
   <br/>
   <div class="title">

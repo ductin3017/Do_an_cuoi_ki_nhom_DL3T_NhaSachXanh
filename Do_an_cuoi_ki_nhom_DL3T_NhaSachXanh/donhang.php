@@ -108,7 +108,7 @@ and open the template in the editor.
                                                     <td style="text-align:center;">'.$row['soluongdat'].'</td>
                                                     <td style="text-align:center;">'.$row['thanhtien'].'VNĐ</td>
                                                     <td style="text-align:center;">'.$row['ngaydat'].'</td>
-                                                    <td style="text-align:center;"><a href="./vnpay_php/index.php" style="color:black; ">Thanh toán VN PAY</td>
+                                                    <td style="text-align:center; style="color:black; ">Thanh toán Khi nhận hàng</td>
                                                     <td style="text-align:center;">';
                                                     if($row['guitang'] == 1){
                                                     echo'    Có';
